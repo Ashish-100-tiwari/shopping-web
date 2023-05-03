@@ -8,7 +8,7 @@ import About from "./components/about/About.jsx"
 import "./components/header/header.scss"
 import "./components/footer/footer.scss"
 import "./components/Home/Home.scss"
-import "./components/about/About.scss"
+import "./components/about/about.scss"
 import "./components/contact/contact.scss"
 
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
