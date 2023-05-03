@@ -1,0 +1,42 @@
+.footer{
+    min-height: 200px;
+    background-color: black;
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    color: white;
+    font-family: Rubik;
+   
+    >div{
+        border: solid 2px white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p,strong{
+            margin-top: 1.3rem;
+        }
+    }
+    aside{
+        border: solid 2px white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        p{
+            font-size: 1.5rem;
+        }
+        >a{
+            font-size: 2rem;
+            color: wheat;
+            margin-top: 1rem;
+            &:hover{
+                color: grey;
+            }
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    footer {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  }
