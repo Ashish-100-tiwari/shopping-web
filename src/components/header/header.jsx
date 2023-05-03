@@ -6,6 +6,7 @@ import { BsShop } from "react-icons/bs";
 const header = () => {
   return (
     <nav>
+      
       <div>
         <BsShop/>
       </div>
@@ -16,6 +17,7 @@ const header = () => {
         <Link to="/about">About</Link>
         <Link to="/login">Login</Link>
       </div>
+
     </nav>
   )
 }
